@@ -34,8 +34,8 @@ nav a{
 
 nav a:hover{
     color: yellow;
-    background-image: url(/imagens/mancha.png) ;
-    background-size: cover;
+    background-image: url(../imagens/mancha.png);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
