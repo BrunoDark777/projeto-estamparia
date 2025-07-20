@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgb(255, 211, 0);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.452);
 
 }
 
@@ -38,4 +39,17 @@ nav a:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+section h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color:  rgb(255, 171, 0);
+    text-shadow: 2px 2px 2px black;
+}
+
+section h2{
+    text-align: center;
+    font-size: 100%;
 }

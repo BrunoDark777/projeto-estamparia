@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/slides.css">
     <title>Tekss Estamparia</title>
 </head>
 <body>
@@ -12,17 +13,63 @@
         <img src="imagens/logo.png" class="logo" alt="logo" title="Tekss Estamparia">
         <div class="links-topo">
             <nav>
-               <a href="">Inicio</a>
-               <a href="">Serviços</a>
-               <a href="">Contato</a>
+               <a href="">INICIO</a>
+               <a href="">SERVIÇOS</a>
+               <a href="">CONTATO</a>
             </nav>
         </div>
     </header>
     <main>
         <section>
-            <h1></h1>
+            <!--<h1>TEKSS ESTAMPARIA</h1>-->
+            <!--<h2>"Estampas Personalizadas de Alta Qualidade para Sua Marca ou Evento."</h2>-->
+            <div class="slider">
+
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+
+
+                    <div class="slide first">
+                        <img src="imagens/imagem1.png" alt="imagem1">
+                    </div>
+                     <div class="slide">
+                        <img src="imagens/imagem2.png" alt="imagem2">
+                    </div>
+                     <div class="slide">
+                        <img src="imagens/imagem3.webp" alt="imagem3">
+                    </div>
+                     <div class="slide">
+                        <img src="imagens/imagem4.avif" alt="imagem4">
+                    </div>
+                     <div class="slide">
+                        <img src="imagens/imagem5.png" alt="imagem5">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label> 
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+
+            </div>
         </section>
     </main>
     <footer></footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
