@@ -10,14 +10,6 @@
   font-style: normal;
 }
 
-
-.permanent-marker-regular {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 .topo{
     width: 100%;
     height: 30%;
@@ -78,10 +70,10 @@ section h2{
     margin-top: 20px;
 }
 
-.cor{
+.fundo{
     margin-top: 0;
     background-color: rgb(77, 75, 75);
-    padding: 4%;
+    padding: 2%;
 }
 
 #SERVIÇOS h2{
@@ -89,8 +81,9 @@ section h2{
 }
 
 .imagens img{
-    width: 300px;
-    margin: 30px 0px 20px 90px;
+    width: 90%;
+    max-width: 300px;
+    margin: 30px 0px 20px 110px;
     box-shadow: 3px 3px 4px black;
     border-radius: 10px;
 }
@@ -100,6 +93,73 @@ section h2{
     
 }
 
+.imagens_2 img{
+    width: 90%;
+    margin-left: 60px;
+}
+
+.imagens_3 img{
+    width: 90%;
+    max-width: 300px;
+    margin: 30px 0px 20px 110px;
+}
+
+.para_fnl{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 171, 0);
+    margin: 30px 0px;
+
+}
+
+div iframe{
+    max-width: 600px;
+    max-height: 450px;
+    margin: 0 28%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.redes_sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px;
+
+    
+}
+
+.redes_sociais div a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cartoes{
+    display: flex;
+    justify-content: center;
+}
+
+.cartoes img{
+    width: 60%;
+}
+
+footer{
+    padding: 15px;
+    background-color: rgb(255, 171, 0);
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+    
 
 /* PARA TELAS MENORES*/
 
@@ -108,9 +168,25 @@ section h2{
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
-         margin-right: 200px;
+        margin-left: -118px;
+}
+    .imagens_2{
+        margin-left: -60px;
+    }
+
+    .imagens_3{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 150px;
+        margin-left: 70px;
+}
+
+.redes_sociais{
+    flex-direction: column;
 }
     }
+
 
 @media (max-width: 768px) {
     .imagens {
